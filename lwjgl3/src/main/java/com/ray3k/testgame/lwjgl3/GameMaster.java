@@ -32,7 +32,7 @@ public class GameMaster extends ApplicationAdapter {
 //            drops[i] = new TextureObject("droplet.png", (float)Math.random()*360, 500, 2);
 //        }
         em.addEntities(new TextureObject("bucket.png", 100, 20, 5, false));
-        em.addEntities(new Circle(Color.RED, 400, 240, 3, 30));
+        em.addEntities(new Circle(Color.GREEN, 400, 240, 3, 30));
         em.addEntities(new Triangle(Color.GREEN, 100, 100, 3));
         
         
